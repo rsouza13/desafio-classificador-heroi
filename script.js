@@ -20,6 +20,8 @@ if(XP <= 1000){
     nivel = 'Radiante';
 }
 
-let result = "O Herói de nome **{"+nome+"}** está no nível **{"+nivel+"}**";
+let result = "O Herói de nome **{"+nome+"}** está no nível **{"+nivel+"}** ";
+
+document.getElementById('conteudo').innerHTML=result;
 
 console.log(result);
